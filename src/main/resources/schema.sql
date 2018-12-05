@@ -26,7 +26,6 @@ CREATE TABLE IF NOT EXISTS Office (
     user_id    INTEGER     NOT NULL COMMENT 'Пользователь',
     org_id     INTEGER     NOT NULL COMMENT 'Организация',
     name       VARCHAR(50) NOT NULL COMMENT 'Наименование',
-    id_doc     INTEGER              COMMENT 'Тип документа'
     address    VARCHAR(50) NOT NULL COMMENT 'Адрес',
     phone      VARCHAR(20)          COMMENT 'Телефон',
     is_active  BOOLEAN
